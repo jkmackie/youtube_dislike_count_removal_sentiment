@@ -30,6 +30,7 @@ The comments were posted between November 10 and November 22 in 2021.  That is 1
 
 Below is the sentiment plot, from comment #1 to comment #613.  The flat regression line reveals that sentiment moved very little between the oldest and newest comments.  Note
 
-#### <ins>Regression of Sentiment vs Comment Number:</ins>
+#### <ins>Regression:</ins>
 ![sentiment_regression](sentiment_regression.JPG)
 
+What do you think?  Is the YouTube user experience enhanced by hiding dislikes?
