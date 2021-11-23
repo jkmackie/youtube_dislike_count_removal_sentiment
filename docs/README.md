@@ -2,14 +2,14 @@
 
 <p>&nbsp;</p>
 
-### YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public
+### News: The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public
 
 * On November 10, 2021, YouTube announced that video **dislike counts** will be hidden from the public.  The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 * The number of dislikes is only available in Studio to content creators.
 * Announcement and Comments: https://support.google.com/youtube/thread/134791097/update-to-youtube-dislike-counts?hl=en
 
 ***
-### Let's Analyze Sentiment for Dislike Button Update!  🧐
+### Let's Analyze Sentiment for the Dislike Button Update!  🧐
 The public provided comments on YouTube's dislike change.  Let's score comment sentiment.  This is done on a scale of -1.0  to +1.0 (most negative to most positive sentiment).  We use the DistilBERT **[1]** language model from the easy-to-use [flair NLP library](https://github.com/flairNLP/flair) to predict sentiment.
 
 Here is the methodology.  A comment is made of sentences and sentiment is scored for each sentence.  The score is the average sentiment for all sentences (or emoticons) in the comment.  For example, if a comment has seven sentences, then the score is the average of the seven sentiments.  Below is an illustration.
@@ -37,7 +37,7 @@ Below is the sentiment plot for November 10-22.  The flat regression line reveal
 
 ***
 ### Final Thoughts
-What do you think?  Is the YouTube experience enhanced by hiding the dislikes?
+What do you think -- is the YouTube experience degraded by hiding the dislikes?
 ***
 
 <p>&nbsp;</p>
