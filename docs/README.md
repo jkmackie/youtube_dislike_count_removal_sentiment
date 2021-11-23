@@ -10,7 +10,7 @@
 
 ***
 ### Let's Analyze Sentiment for Dislike Button Update!  🧐
-The public provided comments on YouTube's dislike change.  Let's score comment sentiment.  This is done on a scale of -1.0  to +1.0 (most negative to most positive sentiment).  We use the distilbert language model from the easy-to-use [flair NLP library](https://github.com/flairNLP/flair) to predict sentiment.
+The public provided comments on YouTube's dislike change.  Let's score comment sentiment.  This is done on a scale of -1.0  to +1.0 (most negative to most positive sentiment).  We use the DistilBERT **[1]** language model from the easy-to-use [flair NLP library](https://github.com/flairNLP/flair) to predict sentiment.
 
 Here is the methodology.  A comment is made of sentences and sentiment is scored for each sentence.  The score is the average sentiment for all sentences (or emoticons) in the comment.  For example, if a comment has seven sentences, then the score is the average of the seven sentiments.  Below is an illustration.
 
@@ -21,16 +21,26 @@ Here is the methodology.  A comment is made of sentences and sentiment is scored
 ---
 
 ### Results
-There were 613 total comments scored.  The bulk of the comments are negative sentiment.  The median sentiment is -0.739.  So half the comments score below -0.739 and half score above.
+There were 613 total comments scored.  The bulk of the comments are negative sentiment.  The median sentiment is -0.739.  So half the comments score below -0.739 and half score above.  
+
+A comment with an average sentiment of 0 is in theory neutral.  Remember, sentiment based on sentence-level predictions by the DistilBERT model.
 
 #### <ins>Histogram:</ins>
 ![sentiment_hist](sentiment_histogram.JPG)
 
 The comments were posted between November 10 and November 22 in 2021.  That is 13 days.  Did sentiment move over time?
 
-Below is the sentiment plot, from comment #1 to comment #613.  The flat regression line reveals that sentiment moved very little between the oldest and newest comments.  Note
+Below is the sentiment plot for November 10-22.  The flat regression line reveals that daily sentiment moved little between November 10 and November 22.  Note
 
 #### <ins>Regression:</ins>
 ![sentiment_regression](sentiment_regression.JPG)
 
-What do you think?  Is the YouTube user experience enhanced by hiding dislikes?
+***
+### Final Thoughts
+What do you think?  Is the YouTube experience enhanced by hiding the dislikes?
+***
+
+<p>&nbsp;</p>
+
+#### Footnotes:
+**[1]** flair used this version: ~\.flair\models\sentiment-en-mix-distillbert_4.pt
