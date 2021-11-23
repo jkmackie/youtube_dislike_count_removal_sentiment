@@ -14,13 +14,14 @@ The public provided comments on YouTube's dislike change.  Let's score comment s
 
 Here is the methodology.  A comment is made of sentences and sentiment is scored for each sentence.  The score is the average sentiment for all sentences (or emoticons) in the comment.  For example, if a comment has seven sentences, then the score is the average of the seven sentiments.  Below is an illustration.
 
-#### <ins>Background:</ins>
-#### <ins>Comment with Seven Sentences Emoticons:</ins>
+
+#### <ins>Comment with Seven Sentences/Emoticons:</ins>
 ![explore comment sentiment illustration](explore_comment_sentiment.JPG)
 
 ---
 
-### Some comment
+### Results
+There were 613 total comments scored.  The bulk of the comments are negative sentiment.  The median sentiment is -0.739.  So half the comments score below -0.739 and half score above.
 
-### Histogram
+#### <ins>Histogram:</ins>
 ![sentiment_hist](sentiment_histogram.JPG)
