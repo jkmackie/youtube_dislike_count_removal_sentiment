@@ -25,3 +25,11 @@ There were 613 total comments scored.  The bulk of the comments are negative sen
 
 #### <ins>Histogram:</ins>
 ![sentiment_hist](sentiment_histogram.JPG)
+
+The comments were posted between November 10 and November 22 in 2021.  That is 13 days.  Did sentiment move over time?
+
+Below is the sentiment plot, from comment #1 to comment #613.  The flat regression line reveals that sentiment moved very little between the oldest and newest comments.  Note
+
+#### <ins>Regression of Sentiment vs Comment Number:</ins>
+![sentiment_regression](sentiment_regressoin.JPG)
+
