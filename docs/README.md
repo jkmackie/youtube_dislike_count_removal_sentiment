@@ -39,10 +39,10 @@ Recall sentiment goes from -1.0 to 1.0.  Comment sentiment of 0 is neutral.  Com
 
 The comments were posted between November 10 and November 22 in 2021.  That is 13 days.  Did sentiment move over time?
 
-Below is the sentiment plot for November 10-22.  The flat regression line reveals that daily sentiment moved little between November 10 and November 22.  Note
+Below is the sentiment distribution plot for November 10-22.  Each day is overlaid with a boxplot to visualize the median and quartiles.
 
-#### <ins>Regression:</ins>
-![sentiment_regression](sentiment_regression.JPG)
+#### <ins>Boxplot by Day:</ins>
+![sentiment_boxplots](sentiment_boxplot.JPG)
 
 ***
 ### Final Thoughts
