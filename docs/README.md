@@ -37,9 +37,9 @@ Recall sentiment goes from -1.0 to 1.0.  Comment sentiment of 0 is neutral.  Com
 #### <ins>Histogram:</ins>
 ![sentiment_hist](sentiment_histogram.JPG)
 
-The comments were posted between November 10 and November 22 in 2021.  That is 13 days.  Did sentiment move over time?
+The comments were posted between November 10 and November 22 in 2021.  That is 13 days.  How did sentiment change over time?
 
-Below is the sentiment distribution plot for November 10-22.  Each day is overlaid with a boxplot to visualize the median and quartiles.
+Below is the sentiment distribution plot for November 10-22.  Each day is overlaid with a boxplot to visualize the median and quartiles.  Each dot is a comment.  We see the most comments were made the first three days.  Median sentiment fluctuates between -0.98 and -0.41, but with a statistically insignificant number of comments (less than 30).
 
 #### <ins>Boxplot by Day:</ins>
 ![sentiment_boxplots](sentiment_boxplot.JPG)
