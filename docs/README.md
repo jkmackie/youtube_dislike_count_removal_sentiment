@@ -41,7 +41,7 @@ The comments were posted between November 10 and November 22 in 2021.  That is 1
 
 Below is the sentiment distribution plot for November 10-22.  Each day is overlaid with a boxplot to visualize the median and quartiles.  Each dot is a comment.  We see the most comments were made the first three days.  The median sentiment is relatively consistent these three days around -0.77 +/- 0.03.
 
-For November 10-22, median sentiment fluctuates between a minimum of -0.98 on Nov. 17 and a maximum of -0.41 on Nov. 22.  But, these extremes are each based on less than 30 values.  So they less reliable.  The law of Large Numbers says more samples bring the estimate closer to the true population value).
+For November 10-22, median sentiment fluctuates between a minimum of -0.98 on Nov. 17 and a maximum of -0.41 on Nov. 22.  But, these extremes are each based on less than 30 values.  So they are less reliable.  The law of Large Numbers says more samples bring the estimate closer to the true population value.
 
 #### <ins>Boxplot by Day:</ins>
 ![sentiment_boxplots](sentiment_boxplot.JPG)
