@@ -32,7 +32,7 @@ This repo contains the following:
 ### Results
 There were 613 total comments scored.  The bulk of the comments are negative sentiment.  The median sentiment is -0.739.  So half the comments score below -0.739 and half score above.  
 
-A comment with an average sentiment of 0 is in theory neutral.  Remember, sentiment based on sentence-level predictions by the DistilBERT model.
+Recall sentiment goes from -1.0 to 1.0.  Comment sentiment of 0 is neutral.  Comment sentiment is the average of sentence-level predictions by the DistilBERT model.
 
 #### <ins>Histogram:</ins>
 ![sentiment_hist](sentiment_histogram.JPG)
