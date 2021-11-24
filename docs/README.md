@@ -16,7 +16,18 @@ Here is the methodology.  A comment is made of sentences and sentiment is scored
 #### <ins>Explore Comment Sentiment.  This Comment has Seven Sentences/Emoticons:</ins>
 ![explore comment sentiment illustration](explore_comment_sentiment.JPG)
 
----
+***
+### Repo Contents
+This repo contains the following:  
+
+&ensp; **(1)** The HTML file with 613 comments on YouTube's announcement (a November 10-22 snapshot).  
+
+&ensp; **(2)** A Jupyter Notebook.  
+* Notebook Python code extracts the comments from the webpage.  
+* Next, a pipeline prepares and scores the comments.  
+* Last, sentiment scores are visualized.
+
+***
 
 ### Results
 There were 613 total comments scored.  The bulk of the comments are negative sentiment.  The median sentiment is -0.739.  So half the comments score below -0.739 and half score above.  
