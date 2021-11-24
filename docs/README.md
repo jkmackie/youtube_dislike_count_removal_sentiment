@@ -12,10 +12,10 @@
 ### Let's Analyze Sentiment for the Dislike Button Update!  🧐
 The public provided comments on YouTube's dislike change.  Let's score comment sentiment.  This is done on a scale of -1.0  to +1.0 (most negative to most positive sentiment).  We use the DistilBERT **[1]** language model from the easy-to-use [flair NLP library](https://github.com/flairNLP/flair) to predict sentiment.
 
-Here is the methodology.  A comment is made of sentences and sentiment is scored for each sentence.  The score is the average sentiment for all sentences (or emoticons) in the comment.  For example, if a comment has seven sentences, then the score is the average of the seven sentiments.  Below is an illustration.
+Here is the methodology.  A comment is made of sentences and sentiment is scored for each sentence.  The flair score is the average sentiment for all sentences (or emoticons) in the comment.  For example, if a comment has seven sentences, then the score is the average of the seven sentiments.  Below is an illustration.
 
 
-#### <ins>Comment with Seven Sentences/Emoticons:</ins>
+#### <ins>Explore Comment with Seven Sentences/Emoticons:</ins>
 ![explore comment sentiment illustration](explore_comment_sentiment.JPG)
 
 ---
@@ -37,7 +37,11 @@ Below is the sentiment plot for November 10-22.  The flat regression line reveal
 
 ***
 ### Final Thoughts
-What do you think -- is the YouTube experience degraded by hiding the dislikes?
+The sentiment classification (flair score) of a sentence may be spot on.  It can also be inaccurate!  Sentence-level noise is mitigated two ways: (1) sentiment is averaged across all sentences in the comment; (2) we assess sentiment across hundreds of comments.
+
+It is possible scoring comments at the phrase level would be effective.  Here we are using DistilBERT's sentence level understanding of a sequence.
+
+Consider YouTube's video announcement.  What do you think about hiding dislike counts -- does it degrade the user experience?
 ***
 
 <p>&nbsp;</p>
