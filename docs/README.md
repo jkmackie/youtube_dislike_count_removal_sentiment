@@ -1,8 +1,6 @@
 # youtube_dislike_count_removal_sentiment
 
-<p>&nbsp;</p>
-
-### News: The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public
+### YouTube Update: The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public
 
 * On November 10, 2021, YouTube announced that video **dislike counts** will be hidden from the public.  The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 * The number of dislikes is only available in Studio to content creators.
@@ -15,7 +13,7 @@ The public provided comments on YouTube's dislike change.  Let's score comment s
 Here is the methodology.  A comment is made of sentences and sentiment is scored for each sentence.  The flair score is the average sentiment for all sentences (or emoticons) in the comment.  For example, if a comment has seven sentences, then the score is the average of the seven sentiments.  Below is an illustration.
 
 
-#### <ins>Explore Comment with Seven Sentences/Emoticons:</ins>
+#### <ins>Explore Comment Sentiment.  This Comment has Seven Sentences/Emoticons:</ins>
 ![explore comment sentiment illustration](explore_comment_sentiment.JPG)
 
 ---
@@ -43,8 +41,6 @@ It is possible scoring comments at the phrase level would be effective.  Here we
 
 Consider YouTube's video announcement.  What do you think about hiding dislike counts -- does it degrade the user experience?
 ***
-
-<p>&nbsp;</p>
 
 #### Footnotes:
 **[1]** flair used this version: ~\.flair\models\sentiment-en-mix-distillbert_4.pt
