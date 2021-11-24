@@ -6,6 +6,13 @@
 * The number of dislikes is only available in Studio to content creators.
 * Announcement and Comments: https://support.google.com/youtube/thread/134791097/update-to-youtube-dislike-counts?hl=en
 
+&nbsp;
+
+<p align="center"> 
+  <img src="https://github.com/jkmackie/youtube_dislike_count_removal_sentiment/blob/main/docs/like_dislike_buttons.JPG"/>
+</p>
+&nbsp;
+
 ***
 ### Let's Analyze Sentiment for the Dislike Button Update!  🧐
 The public provided comments on YouTube's dislike change.  Let's score comment sentiment.  This is done on a scale of -1.0  to +1.0 (most negative to most positive sentiment).  We use the DistilBERT **[1]** language model from the easy-to-use [flair NLP library](https://github.com/flairNLP/flair) to predict sentiment.
